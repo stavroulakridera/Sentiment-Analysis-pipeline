@@ -85,3 +85,50 @@ Model performance is evaluated using:
 ---
 
 ## Repository Structure
+twitter-sentiment-analysis/
+│
+├── sentiment_analysis_pipeline.py
+├── notebooks/
+│
+├── figures/
+│
+├── requirements.txt
+└── README.md
+
+
+---
+
+## Requirements
+
+Python packages required:
+
+
+numpy
+pandas
+scikit-learn
+tensorflow
+keras
+nltk
+textblob
+vaderSentiment
+matplotlib
+seaborn
+
+
+Install using:
+
+
+pip install -r requirements.txt
+
+
+---
+
+## Reproducibility
+
+The repository contains the scripts used to reproduce the experiments reported in the paper.
+
+---
+
+## License
+
+This project is released for research purposes.
